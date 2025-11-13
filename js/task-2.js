@@ -36,4 +36,4 @@ function imagesTemplate(images) {
 }
 
 const markup = imagesTemplate(images);
-gallery.innerHTML = markup;
+gallery.insertAdjacentHTML('afterbegin', markup);
