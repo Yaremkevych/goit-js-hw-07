@@ -13,11 +13,83 @@ body {
   line-height: 1.5;
 }
 
+/*task-1*/
+ul,
+li {
+  list-style: none;
+}
+#categories .item h2 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+  color: #2e2f42;
+}
+#categories .item ul li {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  margin-bottom: 12px;
+
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #2e2f42;
+  padding: 8px 16px;
+}
+
+/*Task-2*/
 .gallery {
   list-style: none;
   padding-left: 0;
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;
+}
+.gallery li img {
+  width: 360px;
+  height: 300px;
+}
+
+/*Task-3*/
+#name-input,
+.login-form label input {
+  width: 360px;
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin-bottom: 20px;
+}
+
+/*Task-4*/
+.login-form {
+  display: block;
+  width: 360px;
+}
+/*Task-5*/
+.widget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.widget p,
+.widget p span {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #2e2f42;
+  padding: 8px 16px;
+}
+.widget button,
+.login-form button {
+  color: #fff;
+  width: 148px;
+  height: 40px;
+  border: 1px solid #4e75ff;
+  background-color: #4e75ff;
+  border-radius: 8px;
+  padding: 8px 16px;
 }
